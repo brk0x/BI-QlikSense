@@ -1,54 +1,110 @@
-# 📊 BI-QlikSense
+# 📊 Business Intelligence & Qlik Sense Portfolio
 
-## Business Intelligence & Qlik Sense Knowledge Repository
+## 🚀 Overview
 
-Welcome to this repository dedicated to Business Intelligence, Data Analytics, and Qlik Sense development.
+This repository demonstrates a **real-world Business Intelligence solution** using **Qlik Sense**, including:
 
-### 🎯 Purpose
-
-This repository aims to provide:
-
-- Business Intelligence fundamentals
-- Qlik Sense development practices
-- KPI management standards
-- Data modeling techniques
-- Dashboard design principles
-- Performance optimization guidelines
-- Governance and documentation standards
+- KPI Design & Management
+- Data Modeling (Star Schema)
+- Qlik Sense Load Scripts
+- BI Governance Principles
+- Dashboard Design Standards
 
 ---
 
-## 👨‍💼 About
+## 🎯 Purpose
 
-This repository is maintained as a knowledge base for Business Intelligence professionals and Qlik Sense developers.
+The purpose of this project is to showcase a **professional BI architecture** that supports data-driven decision making.
 
-### Areas of Focus
+---
 
-- Business Intelligence
+## 🏗 BI Architecture
+
+```text
+Data Sources
+     ↓
+ETL / Load Scripts
+     ↓
+Data Model (Star Schema)
+     ↓
+Qlik Sense Application Layer
+     ↓
+Dashboards & KPIs
+     ↓
+Business Decisions
+```
+
+---
+
+## 📊 Key Components
+
+### 1. KPI Management
+Standardized KPIs used across dashboards:
+- Revenue
+- Net Revenue
+- Active Customers
+- Orders
+- Average Order Value (AOV)
+
+---
+
+### 2. Data Modeling
+Star Schema design used for performance and scalability.
+
+- FactSales
+- DimCustomer
+- DimProduct
+- DimDate
+- DimRegion
+
+---
+
+### 3. Qlik Sense Load Script
+ETL logic implemented using Qlik script layer.
+
+- Data extraction from source systems
+- Transformation logic
+- Data loading into Qlik associative model
+
+---
+
+## ⚙️ Technologies Used
+
 - Qlik Sense
+- SQL
+- Data Warehousing Concepts
+- Business Intelligence Design Principles
+
+---
+
+## 📌 Best Practices Applied
+
+- Star Schema modeling
+- KPI standardization
+- Reusable measures
+- Clean data layer design
+- Scalable architecture approach
+
+---
+
+## 📈 Business Value
+
+This BI solution enables:
+
+- Faster decision making
+- Unified KPI definitions
+- Single source of truth
+- Improved reporting performance
+- Scalable analytics structure
+
+---
+
+## 👨‍💼 Author
+
+Business Intelligence Manager
+
+Specialized in:
+- Qlik Sense Development
 - Data Analytics
-- Data Warehousing
-- KPI Management
-- Data Governance
-- Dashboard Development
-
----
-
-## 📚 Planned Contents
-
-- Introduction to Business Intelligence
-- Qlik Sense Fundamentals
 - Data Modeling
-- Load Script Development
-- KPI Catalog
-- Dashboard Design
-- Performance Optimization
-- Governance Framework
-
----
-
-## 🚀 Repository Status
-
-Work in progress.
-
-New content will be added regularly.
+- KPI Governance
