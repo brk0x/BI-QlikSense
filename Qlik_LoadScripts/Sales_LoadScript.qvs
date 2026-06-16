@@ -1,0 +1,32 @@
+# =========================
+# SALES LOAD SCRIPT
+# Qlik Sense Data Layer
+# =========================
+
+SET DateFormat='YYYY-MM-DD';
+
+LIB CONNECT TO 'Your_Data_Source_Connection';
+
+Sales:
+LOAD
+    OrderID,
+    CustomerID,
+    ProductID,
+    SalesAmount,
+    OrderDate,
+    Quantity;
+
+SQL SELECT
+    OrderID,
+    CustomerID,
+    ProductID,
+    SalesAmount,
+    OrderDate,
+    Quantity
+FROM SalesTable;
+
+# =========================
+# DATA QUALITY CHECKS
+# =========================
+
+TRACE 'Sales table loaded successfully';
